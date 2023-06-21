@@ -57,13 +57,13 @@ REST_FRAMEWORK = {
     ]
 }
 
-# CORS_ALLOWED_ORIGINS = [
-#     'http://localhost:3000',
-#     'https://meta-bnb-forntend.vercel.app/login',
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'https://meta-bnb-forntend.vercel.app/login',
    
-# ]
+]
 
-ALLOWED_HOSTS=['*']
+# ALLOWED_HOSTS=['*']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
